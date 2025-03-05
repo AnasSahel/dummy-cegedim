@@ -60,10 +60,7 @@
       "contracts": {
         "agregated": [
           {
-            "s2eta.meta": {
-              "val": "ET2",
-              "auto": "Etablissement 2"
-            },
+            "s2eta.meta": { "val": "ET2", "auto": "Etablissement 2" },
             "s1contrat.ddeb": "2000-05-10",
             "s1contrat.msoc": { "val": "SC2", "auto": "Societe 2" },
             "s2typecontr.contratpartic": { "val": "$empty", "lib": "  " },
