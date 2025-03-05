@@ -1,0 +1,36 @@
+{
+  "popu": [],
+  "header": {
+    "s1ide.mmat": "Matricule",
+    "s1ide.nom1": "Nom",
+    "s1ide.prenom1": "Prénom",
+    "s1refid.office_email": "Adresse e-mail",
+    "s1hier1.ismanager": "Is Manager",
+    "s1hier1.hmat": "Responsable",
+    "s2orggta.morg": "MORG",
+    "s2orggta.morgpath": "MORGPATH",
+    "s2emploi.cemploi": "Emploi",
+    "s2analyt.axe11": "Axe 1",
+    "s2societaire.annee": "Année passage sociétariat ",
+    "s2typecontr.contratpartic": "Contrat particulier",
+    "s2typecontr.typcontrat": "Type de contrat",
+    "s1contrat.ddeb": "Date début",
+    "s1contrat.dfin": "Date fin",
+    "s1contrat.msoc": "Société",
+    "s2mandatcsereport.ddeb": "Date de début",
+    "s2mandatcsereport.dfin": "Date de fin",
+    "s2mandatcsereport.mandat": "Mandat",
+    "s2eta.meta": "Etablissement"
+  },
+  "params": {
+    "ddeb": "1900-01-01",
+    "dfin": "2025-02-15",
+    "headerrows": true,
+    "population": "$all",
+    "wsc_infocomp": "auto:lib"
+  },
+  "nbcol": 20,
+  "nbinfos": 138511,
+  "facturable": true,
+  "createdAt": "2024-11-15T08:52:57.1434056+01:00"
+}
