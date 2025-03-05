@@ -1,5 +1,90 @@
-({
-  "popu": [],
+{
+  "popu": [
+    {
+      "mmat": 19000000,
+      "employee": {
+        "s1ide.mmat": 19000000,
+        "s1ide.nom1": { "val": "Doe", "lib": "Doe" },
+        "s1ide.prenom1": "John",
+        "agregated": [
+          {
+            "s1hier1.ismanager": false,
+            "s1hier1.hmat": { "val": 19000001, "auto": "John Smith" },
+            "s1refid.office_email": "john.doe@example.com",
+            "effdate": "2020-10-01"
+          }
+        ]
+      },
+      "contracts": {
+        "agregated": [
+          {
+            "s2eta.meta": {
+              "val": "ET1",
+              "auto": "Etablissement 1"
+            },
+            "s1contrat.ddeb": "1993-03-22",
+            "s1contrat.msoc": { "val": "SC1", "auto": "Societe 1" },
+            "s2typecontr.contratpartic": { "val": "$empty", "lib": "  " },
+            "s2typecontr.typcontrat": {
+              "val": "$cdi",
+              "lib": "Contrat à durée indéterminée"
+            },
+            "s2societaire.annee": 1994,
+            "s2analyt.axe11": {
+              "val": "S01",
+              "lib": "Informatique"
+            },
+            "s2emploi.cemploi": { "val": "reprise", "lib": "reprise" },
+            "s2orggta.morg": "gta",
+            "s2orggta.morgpath": "1_001;2_001;3_009;4_007",
+            "effdate": "1993-03-22"
+          }
+        ]
+      }
+    },
+    {
+      "mmat": 19000001,
+      "employee": {
+        "s1ide.mmat": 19000001,
+        "s1ide.nom1": { "val": "Smith", "lib": "Smith" },
+        "s1ide.prenom1": "John",
+        "agregated": [
+          {
+            "s1hier1.ismanager": true,
+            "s1hier1.hmat": { "val": 19000002, "auto": "Jane Doe" },
+            "s1refid.office_email": "john.smith@example.com",
+            "effdate": "2021-01-15"
+          }
+        ]
+      },
+      "contracts": {
+        "agregated": [
+          {
+            "s2eta.meta": {
+              "val": "ET2",
+              "auto": "Etablissement 2"
+            },
+            "s1contrat.ddeb": "2000-05-10",
+            "s1contrat.msoc": { "val": "SC2", "auto": "Societe 2" },
+            "s2typecontr.contratpartic": { "val": "$empty", "lib": "  " },
+            "s2typecontr.typcontrat": {
+              "val": "$cdi",
+              "lib": "Contrat à durée indéterminée"
+            },
+            "s2societaire.annee": 2001,
+            "s2analyt.axe11": {
+              "val": "S02",
+              "lib": "Marketing"
+            },
+            "s2emploi.cemploi": { "val": "manager", "lib": "manager" },
+            "s2orggta.morg": "gta",
+            "s2orggta.morgpath": "1_002;2_003;3_010;4_008",
+            "effdate": "2000-05-10"
+          }
+        ]
+      }
+    }
+  ],
   "header": {
     "s1ide.mmat": "Matricule",
     "s1ide.nom1": "Nom",
@@ -33,4 +118,4 @@
   "nbinfos": 138511,
   "facturable": true,
   "createdAt": "2024-11-15T08:52:57.1434056+01:00"
-})
+}
